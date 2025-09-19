@@ -72,8 +72,8 @@ Create a `.env` file based on `env.example`:
 
 ```bash
 # Extend AI API Configuration
-EXTEND_API_TOKEN=sk_iW8pvDyIP1csQLVOQ5MC2
-EXTEND_PROCESSOR_ID=dp_jT1DNo-oQE5mhdB5YqUcO
+EXTEND_API_TOKEN=<your-API-key>
+EXTEND_PROCESSOR_ID=<ID-of-the-configured-processor>
 ```
 
 ### Extend AI Setup
