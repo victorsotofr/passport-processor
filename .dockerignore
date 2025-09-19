@@ -1,0 +1,53 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.env
+
+# Documentation
+README.md
+*.md
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Logs and data
+backend/logs/*
+backend/output/*
+backend/contact_lists/*
+!backend/contact_lists/.gitkeep
+!backend/logs/.gitkeep
+!backend/output/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache
+tests/
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
