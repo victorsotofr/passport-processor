@@ -332,12 +332,8 @@ def convert_df_to_json(df: pd.DataFrame) -> str:
 # MAIN UI
 ######################################################################
 
-# Sidebar
-st.sidebar.title("🛂 Passport Extractor")
-st.sidebar.markdown("---")
-
 # API Configuration
-st.sidebar.subheader("🔑 Extend AI Configuration")
+st.sidebar.subheader("Extend AI Configuration")
 
 # Load default values from environment variables
 default_api_token = os.getenv("EXTEND_API_TOKEN", "")
@@ -361,9 +357,6 @@ page = st.sidebar.selectbox(
     "Navigate to:",
     ["Extract Passport", "Extraction History", "Settings"]
 )
-
-st.sidebar.markdown("---")
-st.sidebar.markdown("**Built for Passport Data Extraction**")
 
 # Main content
 if page == "Extract Passport":
@@ -571,7 +564,3 @@ elif page == "Settings":
     3. Extract structured data
     4. Download results in your preferred format
     """)
-
-# Footer
-st.sidebar.markdown("---")
-st.sidebar.markdown("*Powered by Extend AI*")
